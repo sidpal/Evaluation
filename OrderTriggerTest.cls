@@ -220,7 +220,7 @@ public with sharing class OrderTriggerTest
 	        }
         Test.stopTest();
         
-        System.assertEquals('Insert failed. First exception on row 1; first error: DUPLICATE_VALUE, duplicate value found: <unknown> duplicates value on record with id: <unknown>: []',insertErrorMessage,'Na not matched');
+        System.assertEquals('Insert failed. First exception on row 1; first error: DUPLICATE_VALUE, duplicate value found: <unknown> duplicates value on record with id: <unknown>: []',insertErrorMessage,'Error not matched');
         
     }
 }
